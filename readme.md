@@ -8,7 +8,7 @@ Aplicación de consola para administrar el préstamo y la devolución de materia
 
 ## 👥 Integrantes
 
-| Nombre | Legajo / Usuario GitHub |
+| Nombre | Usuario GitHub |
 |--------|--------------------------|
 | Brizuela, Carla |  |
 | Dafne |  |
