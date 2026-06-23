@@ -11,8 +11,8 @@ Aplicación de consola para administrar el préstamo y la devolución de materia
 | Nombre | Usuario GitHub |
 |--------|--------------------------|
 | Brizuela, Carla |  |
-| Dafne |  |
-| Vergara, Lucas |  |
+| Dafne, Araujo   |  |
+| Vergara, Lucas  |  |
 
 ---
 
