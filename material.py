@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class Material(ABC):
      
-     def __init__(self,codigo,titulo,disponible):
+     def __init__(self,codigo,titulo):
           self.__codigo = codigo
           self.__titulo = titulo
           self.__disponible = True
