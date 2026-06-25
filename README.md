@@ -27,10 +27,6 @@ El sistema permite:
 - Registrar la devolución de un material.
 - Listar materiales disponibles y préstamos de cada socio.
 
----
-
-## 🧩 Diagrama de Clases (UML)
-
 ```mermaid
 classDiagram
     class Material {
@@ -59,7 +55,10 @@ classDiagram
     class Socio {
         -id_socio: str
         -nombre: str
+        -apellido: str
         -materiales_prestados: List~Material~
+        +get_id() str
+        +get_nombre_completo() str
         +prestar_material(m: Material) void
         +devolver_material(m: Material) void
         +listar_prestamos() List~Material~
@@ -68,7 +67,11 @@ classDiagram
     class Biblioteca {
         -materiales: List~Material~
         -socios: List~Socio~
+        -contador_material: int
+        -contador_socio: int
         +obtener_instancia()$ Biblioteca
+        +generar_codigo_material() str
+        +generar_id_socio() str
         +registrar_material(m: Material) void
         +registrar_socio(s: Socio) void
         +prestar(codigo: str, id_socio: str) void
@@ -82,10 +85,6 @@ classDiagram
     Biblioteca "1" o-- "0..*" Material : gestiona
     Biblioteca "1" o-- "0..*" Socio : gestiona
 ```
-
-> El `*` en `dias_de_prestamo()*` indica que es un método **abstracto**. El `$` en `obtener_instancia()$` indica que es un método **estático / de clase**.
-
----
 
 ## 🏛️ Conceptos de POO aplicados
 
