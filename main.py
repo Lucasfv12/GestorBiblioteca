@@ -39,7 +39,7 @@ for material in biblioteca.materiales_disponibles():
 
 #El socio devuelve el libro
 
-print("\--- El socio devuelve el Principito ---")
+print("\n--- El socio devuelve el Principito ---")
 biblioteca.devolver("L001","S001")
 
 print("Prestamos del socio:")
