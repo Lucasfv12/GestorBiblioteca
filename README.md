@@ -8,11 +8,11 @@ Aplicación de consola para administrar el préstamo y la devolución de materia
 
 ## 👥 Integrantes
 
-| Nombre | Usuario GitHub |
+| Nombre | DNI |
 |--------|--------------------------|
-| Brizuela, Carla |  |
+| Brizuela, Carla | 35.998.712 |
 | Dafne, Araujo   |  |
-| Vergara, Lucas  |  |
+| Vergara, Lucas  | 35.406.133 |
 
 ---
 
