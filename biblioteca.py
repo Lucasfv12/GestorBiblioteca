@@ -41,7 +41,7 @@ class Biblioteca:
                 for m in self.__materiales:
                         if m.get_codigo() == codigo:
                                 material = m
-                for s in self.__materiales:
+                for s in self.__socios:
                         if s.get_id() == id_socio:
                                 socio = s
                 if material and socio:
