@@ -26,7 +26,7 @@ for material in biblioteca.materiales_disponibles():
 
 #El socio pide prestado un libro
 
-print(\n--- El socio retira el Principito)
+print("\n--- El socio retira el Principito")
 biblioteca.prestar("L001","S001")
 
 print("Prestamos del socio: ")
