@@ -102,7 +102,7 @@ Los atributos son privados. El atributo `disponible` nunca se cambia desde afuer
 `dias_de_prestamo()` responde distinto según el tipo de material, aunque se lo llame igual:
 
 - `Libro` → 15 días
-- `Revista` → 3 días
+- `Revista` → 7 días
 
 La `Biblioteca` trabaja con objetos `Material` sin saber de qué subclase son: llama a `material.dias_de_prestamo()` y cada objeto responde según su clase real.
 
