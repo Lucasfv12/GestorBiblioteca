@@ -11,7 +11,7 @@ Aplicación de consola para administrar el préstamo y la devolución de materia
 | Nombre | DNI |
 |--------|--------------------------|
 | Brizuela, Carla | 35.998.712 |
-| Dafne, Araujo   |  |
+| Dafne, Araujo   | 47.888.672 |
 | Vergara, Lucas  | 35.406.133 |
 
 ---
