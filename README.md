@@ -123,6 +123,20 @@ La clase `Biblioteca` aplica el patrón **Singleton**: debe existir **una sola b
 
 ---
 
+## ▶️ Instrucciones de ejecución
+
+1. Cloná o descargá el repositorio.
+2. Asegurate de tener instalado **Python 3.10 o superior**.
+3. Desde la carpeta del proyecto, ejecutá:
+
+```bash
+   python main.py
+```
+
+4. Se abrirá un menú por consola con las opciones para registrar materiales y socios, prestar, devolver y consultar.
+
+_No requiere instalar librerías externas._
+
 
 
 
